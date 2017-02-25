@@ -12,3 +12,26 @@ html,body{
 	margin:0;
 	padding:0;
 }
+
+.intro-section{
+	display:none;
+	font-size: 300%;
+	font-family: "Bubbler One", sans-serif;
+}
+
+.about-section{
+	display:none;
+	font-size: 150%;
+	font-family: "Bubbler One", sans-serif;
+}
+
+.nav{
+	font-size: 125%;
+	font-family: "Bubbler One", sans-serif;
+}
+
+.skills-section{
+	display:none;
+	font-size: 150%;
+	font-family: "Bubbler One", sans-serif;
+}

@@ -2,36 +2,26 @@
 <html>
 <head>
 	<meta charset = "UTF-8">
-	<title>William Yang</title>
+	<title>William Yang | About Me</title>
+	<link href='//fonts.googleapis.com/css?family=Bubbler One' rel='stylesheet'>
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
 	<link rel="stylesheet" type="text/css" href="css/stylesheet.css">
 	<link rel="shortcut icon" href="img/wsymbol.png">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+	<script src="js/javascript.js"></script>
 
 </head>
 
 <body>
-	<nav class="navbar navbar-default">
-		<div class="container-fluid">
-			<div class="navbar-header">
-				<a class="navbar-brand" href="index.html"><img src="img/me1.png" class="img-circle" alt="That's me!" width="75" height="75"></a>
-			</div>
-			<ul class="nav navbar-nav">
-				<li><a href="index.html">Home</a></li>
-				<li class="active"><a href="about.html">About Me</a></li>
-				<li><a href="projects.html">Projects</a></li>
-				<li><a href="work.html">Work History</a></li>
-				<li><a href="pdf/Resume_William_Yang2017.pdf">Resume</a></li>
-				<li><a href="bootstrapplayground.html">BootStrap PlayGround</a></li>
-			</ul>
-		</div>
-	</nav>
+<?php include("includes/header.html");?>
+
 
 	<div class="container">
 		<div class="col-sm-9 col-md-6 col-lg-8">
 
 
-			<div style="text-align: left">
-				<h1>Software Engineer | Game Designer</h1>
+			<div style="text-align: left" class="about-section">
+				<h1 style="font-weight:bold">Software Engineer | Game Designer</h1>
 				Hello! My name is William Yang and I am an aspiring Software Engineer and Game Designer!
 				I graduted from the University of California, Irvine in 2016 with a Computer Game Science degree.
 				Technology has never been so prominent in our lives before -- it is constantly evolving and growing at such
@@ -47,7 +37,7 @@
 		</div>
 
 	<div class="container">
-		<div class="col-sm-12 col-md-12 col-lg-12">
+		<div class="col-sm-12 col-md-12 col-lg-12 skills-section">
 			<h1>Skills</h1>
 			<img src="img/barchart.png" class="img" alt="Coding Skills" width="75%" height="75%">
 
