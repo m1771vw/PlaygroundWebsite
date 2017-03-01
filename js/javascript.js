@@ -26,3 +26,10 @@ $(document).ready(function() {
 $(document).ready(function(){
     $(".intro-section, .skills-section, .about-section, .project-section, .work-section").fadeIn("slow");
 });
+
+$(".img-crop").hover(function(){
+  $(this).animate({'opacity':'1'}, 100);
+},
+function(){
+  $(this).animate({'opacity':'0.75'}, 100);
+});
