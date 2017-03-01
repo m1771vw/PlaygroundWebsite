@@ -24,13 +24,5 @@ $(document).ready(function() {
 });
 
 $(document).ready(function(){
-    $(".intro-section").fadeIn("slow");
-});
-
-$(document).ready(function(){
-    $(".about-section").fadeIn("slow");
-});
-
-$(document).ready(function(){
-    $(".skills-section").fadeIn("slow");
+    $(".intro-section, .skills-section, .about-section, .project-section, .work-section").fadeIn("slow");
 });
