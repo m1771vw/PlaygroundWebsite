@@ -2,15 +2,17 @@
 <html>
 <head>
 	<meta charset = "UTF-8">
-	<title>{ William Yang }</title>
+	<title>William Yang</title>
   <?php include("includes/headcssjs-content.html");?>
-
 </head>
 
 <body>
 
-<?php include("includes/header.html");?>
-<?php include("includes/intro-content.html");?>
+	<?php include("includes/header.html");?>
+
+	<?php include("includes/bunnybullies-content.html");?>
+
+
 
 
 
