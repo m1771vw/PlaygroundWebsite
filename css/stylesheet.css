@@ -12,7 +12,12 @@
 	font-family: "Bubbler One", sans-serif;
 }
 
+.intro-link-section a, .intro-link-section:hover a, .intro-link-section:visited a, .intro-link-section:link a, .intro-link-section:active a
+{
+	 color: #000000;
 
+    text-decoration: none;
+}
 
 .nav{
 	font-size: 125%;

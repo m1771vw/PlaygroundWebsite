@@ -2,7 +2,7 @@
 <html>
 <head>
 	<meta charset = "UTF-8">
-	<title>{ William Yang }</title>
+	<title> William Yang </title>
   <?php include("includes/headcssjs-content.html");?>
 
 </head>
