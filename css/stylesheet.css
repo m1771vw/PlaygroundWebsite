@@ -1,0 +1,204 @@
+/* margin: top right bottom left */
+/* CSS that will persist in all sizes */
+#navbar-container{
+    /* border-style: solid; */
+    font-family: "Open sans";
+    font-weight: 700;
+    font-size: 24px;
+    
+    /* border-style: solid; */
+}
+#navbar-container a {
+    color: black;
+    display: inline-block;
+    text-decoration: none;
+} 
+
+.navbar-choices{
+    /* border-style: solid; */
+}
+
+.nav-home, .nav-about, .nav-skills, .nav-projects, .nav-contact{
+    color: black;
+    
+}
+.nav-home:hover, .nav-about:hover, .nav-skills:hover, .nav-projects:hover, .nav-contact:hover {
+    border-bottom: 5px solid black;
+    margin-bottom: -5px;
+    
+}
+
+#website-container{
+    border-style: solid;
+    background-color: white;
+}
+
+
+/*
+* Responsive Media CSS
+*/
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 450px) {
+    #navbar-container{
+        margin-top: 20px;
+        text-align: center;
+        display: block;
+    }
+    a.home-logo{
+        margin-bottom:20px;
+    }
+    .navbar-choices{
+        margin-right: 10px;
+        margin-left: 10px;
+        margin-top: 5px;
+        margin-bottom: 5px;
+        
+    }
+    .nav-home, .nav-about, .nav-skills, .nav-projects, .nav-contact{
+        
+        margin-right: 10px;
+        margin-left: 10px;
+        margin-top: 5px;
+        margin-bottom: 5px;
+    }
+    #website-container{
+        background-color: purple;
+        margin-top: 50px;
+    }
+}
+@media only screen and (min-width: 450px) and (max-width: 600px) {
+    #navbar-container{
+        margin-top: 20px;
+        text-align: center;
+        display: block;
+        
+    }
+    a.home-logo{
+        margin-bottom:20px;
+    }
+    .navbar-choices{
+        display: block;
+        text-align: center;
+    }
+    
+    .nav-home, .nav-about, .nav-skills, .nav-projects, .nav-contact{
+        margin-right: 10px;
+        margin-left: 10px;
+        margin-top: 5px;
+        margin-bottom: 5px;
+    }
+    #website-container{
+        background-color: grey;    
+        margin-top: 50px;
+    }
+} 
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+    #navbar-container{
+        margin-top: 20px;
+        display: block;
+    }
+    a.home-logo{
+        margin-left: 20px;
+        margin-bottom:10px;
+        margin-top: 10px;
+    }
+    .navbar-choices{
+        float: right;
+        display: inline-block;
+        margin-right: 20px;
+    }
+    .nav-home, .nav-about, .nav-skills, .nav-projects, .nav-contact{
+        margin-right: 10px;
+        margin-left: 10px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    #website-container{
+        background-color: blue;
+        margin-top: 30px;
+    }
+} 
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+    #navbar-container{
+        margin-top: 20px;
+        display: block;
+    }
+    a.home-logo{
+        margin-left: 20px;
+        margin-bottom:10px;
+        margin-top: 10px;
+    }
+    .navbar-choices{
+        float: right;
+        display: inline-block;
+        margin-right: 20px;
+    }
+    .nav-home, .nav-about, .nav-skills, .nav-projects, .nav-contact{
+        margin-right: 10px;
+        margin-left: 10px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    #website-container{
+        background-color: green;
+    }
+
+} 
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+    #navbar-container{
+        margin-top: 20px;
+        display: block;
+    }
+    a.home-logo{
+        margin-left: 20px;
+        margin-bottom:10px;
+        margin-top: 10px;
+    }
+    .navbar-choices{
+        float: right;
+        display: inline-block;
+        margin-right: 20px;
+    }
+    .nav-home, .nav-about, .nav-skills, .nav-projects, .nav-contact{
+        margin-right: 10px;
+        margin-left: 10px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    #website-container{
+        background-color: red;
+    }
+} 
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+    #navbar-container{
+        margin-top: 20px;
+        display: block;
+    }
+    a.home-logo{
+        margin-left: 50px;
+        margin-bottom:10px;
+        margin-top: 10px;
+    }
+    .navbar-choices{
+        float: right;
+        display: inline-block;
+        margin-right: 50px;
+    }
+    .nav-home, .nav-about, .nav-skills, .nav-projects, .nav-contact{
+        margin-right: 10px;
+        margin-left: 10px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    #website-container{
+        background-color: orange;
+    }
+}
