@@ -51,11 +51,6 @@ img.home-logo{
         display: block;
         
     }
-    a.home-logo{
-        
-        
-    }
-
     .navbar-choices{
         margin-right: 10px;
         margin-left: 10px;
@@ -86,13 +81,13 @@ img.home-logo{
     #navbar-container{
         margin-top: 20px;
         display: block;
-        border-style: solid;
+        /* border-style: solid; */
     }
     a.home-logo{
         margin-left: 30px;
         margin-bottom:10px;
-        /* margin-top: 10px; */
-        border-style: solid;
+        
+        /* border-style: solid; */
     }
 
     .navbar-choices{
@@ -100,7 +95,7 @@ img.home-logo{
         display: inline-block;
         margin-top: 20px;
         margin-right: 20px;
-        border-style: solid;
+        /* border-style: solid; */
     }
     .nav-home, .nav-about, .nav-skills, .nav-projects, .nav-contact{
         margin-right: 10px;
@@ -108,10 +103,28 @@ img.home-logo{
         margin-top: 10px;
         margin-bottom: 10px;
     }
+    #bg {
+        position: fixed; 
+        top: -50%; 
+        left: -50%; 
+        width: 200%; 
+        height: 200%;
+      }
+      #bg img {
+        position: absolute; 
+        top: 0; 
+        left: 0; 
+        right: 0; 
+        bottom: 0; 
+        margin: auto; 
+        min-width: 50%;
+        min-height: 50%;
+      }
     #website-container{
         background-color: blue;
         margin-top: 30px;
     }
+
 } 
 
 /* Medium devices (landscape tablets, 768px and up) */
