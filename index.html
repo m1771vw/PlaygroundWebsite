@@ -13,6 +13,7 @@
 
 <body>
 <div id="image-container">
+    <div class="image-container-layer">
     <nav id="navbar-container">
         <a href="" class="home-logo"><img src="img/wsymbol.png" alt="William Yang" class="home-logo"></a>
         <div class="navbar-choices">
@@ -27,9 +28,10 @@
             William Yang
         </div>
         <div class="name-subtitle">
-
+            Software Engineer | Game Designer
         </div>
         
+    </div>
     </div>
 </div>    
 <div id="website-container">
@@ -56,10 +58,15 @@
     <div class="skills2-container">
         <div class="skill2-title">I also know...</div>
         <div class="skill2-content">
-            <div class="skill2-box">GitHub</div>
-            <div class="skill2-box">Docker</div>
-            <div class="skill2-box">React Native</div>
-            <div class="skill2-box">Agile</div>
+            <div class="skill2-column">
+                <div class="skill2-box">GitHub</div>
+                <div class="skill2-box">Docker</div>        
+            </div>
+            <div class="skill2-coolumn">
+                <div class="skill2-box">React Native</div>
+                <div class="skill2-box">Agile</div>
+            </div>
+            
 
         </div>
     </div>
@@ -80,12 +87,36 @@
     <div class="filler-space">
             hello, this is filler space.
     </div>
+    <div class="quote-container">
+        <div class="quote-text">"What a great person to work with!"</div>
+        <div class="quote-from">- Coworker</div>
+
+    </div>
+    <div class="filler-space">
+            hello, this is filler space.
+    </div>
     <div id="contact" class="contact-container">
             <div class="contact-title">Contact</div>
-            <div class="contact-content">orem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</div>
+            <div class="contact-content">
+                <div class="contact-row">
+                    <img src="img/wsymbol.png" class="contact-choice"></img>
+                    <img src="img/wsymbol.png" class="contact-choice"></img>
+                    <img src="img/wsymbol.png" class="contact-choice"></img>
+                </div>
+            </div>
     </div>
 </div>
-
+<div class="filler-space">
+        hello, this is filler space.
+</div>
+<div id="footer" class="footer">
+    <div class="footer-content">
+        <div class="footer-row">
+            <img src="img/wsymbol.png" class="footer-picture"></img>
+            William Yang Footer
+        </div>
+    </div>
+</div>
 <script>
 var ctx = document.getElementById('skillsChart')
 var chart = new Chart(ctx, {
