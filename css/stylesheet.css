@@ -39,9 +39,7 @@ img.home-logo{
     background-color: white;
     font-family: "Open sans";
 }
-.about-container, .skills-container, .projects-container, .contact-container{
-    display: flex;
-}
+
 .about-title, .skills-title, .projects-title, .contact-title{
     text-align: center;
     font-size: 24px;
@@ -104,6 +102,9 @@ img.home-logo{
         background-size: cover;
         position: relative;
     }
+    .about-title, .skills-title, .projects-title, .contact-title{
+        margin-bottom: 10px;
+    }
 
 }
 
@@ -153,6 +154,12 @@ img.home-logo{
     #website-container{
         background-color: #F0F0F0;
         /* margin-top: 30px; */
+    }
+    .about-container, .skills-container, .projects-container, .contact-container{
+        display: flex;
+    }
+    .about-title, .skills-title, .projects-title, .contact-title{
+        text-align: right;
     }
 
 } 

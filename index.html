@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
     <link rel="stylesheet" type="text/css" href="css/stylesheet.css">
     <script src="js/javascript.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.4.0/Chart.min.js"></script>
 </head>
 
 <body>
@@ -47,6 +48,7 @@
     <div id="skills" class="skills-container">
         <div class="skills-title">Skills</div>
         <div class="skills-content">orem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</div>
+        <canvas id="skillsChart" width="400" height="300"></canvas>
     </div>
     <div class="filler-space">
             hello, this is filler space.
@@ -64,7 +66,81 @@
     </div>
 </div>
 
+<script>
+var ctx = document.getElementById('skillsChart')
+var chart = new Chart(ctx, {
+    // The type of chart we want to create
+    type: 'horizontalBar',
 
+    // The data for our dataset
+    data: {
+        fill:false,
+        labels: ["C#", "Swift", "React Native", "Python", "Java", "HTML5/CSS3", "Javascript", "SQL", "C++"],
+        datasets: [{
+            label: "Coding Proficiency",
+            
+            backgroundColor: 
+            [
+                'rgba(94, 214, 106, 0.2)',
+                'rgba(226, 61, 24, 0.2)',
+                'rgba(23, 212, 226, 0.2)',
+                'rgba(23, 138, 226, 0.2)',
+                'rgba(98, 185, 252, 0.2)',
+                'rgba(244, 142, 17, 0.2)',
+                'rgba(255, 251, 35, 0.2)',
+                'rgba(142, 142, 132, 0.2)',
+                'rgba(61, 0, 142, 0.2)',
+            ],
+            borderColor: [
+                'rgb(94, 214, 106)',
+                'rgb(226, 61, 24)',
+                'rgb(23, 212, 226)',
+                'rgb(23, 138, 226)',
+                'rgb(98, 185, 252)',
+                'rgb(244, 142, 17)',
+                'rgb(255, 251, 35)',
+                'rgb(142, 142, 132)',
+                'rgb(61, 0, 142)',
+                ],
+            data: [4, 4, 3, 3, 3, 3, 3, 3, 2],
+            borderWidth: 2,
+        }]
+    },
+
+    // Configuration options go here
+    options: {
+        legend: {
+            display: true,
+            text: 'Hi',
+            labels: {
+                fontColor: 'rgb(255, 99, 132)'
+            }
+
+        },
+        scales: {
+            xAxes: [{
+                ticks: {
+                    beginAtZero:true,
+                    fixedStepSize: 1,
+                    min: 0,
+                    max: 5
+                }
+            }]
+        }
+    }
+});
+
+new Chart(document.getElementById("chartjs-1"),
+{"type":"bar","data":{"labels":
+["January","February","March","April","May","June","July"],
+"datasets":[{"label":"My First Dataset","data":[65,59,80,81,56,55,40],
+"fill":false,"backgroundColor":["rgba(255, 99, 132, 0.2)","rgba(255, 159, 64, 0.2)",
+"rgba(255, 205, 86, 0.2)","rgba(75, 192, 192, 0.2)","rgba(54, 162, 235, 0.2)",
+"rgba(153, 102, 255, 0.2)","rgba(201, 203, 207, 0.2)"],"borderColor":["rgb(255, 99, 132)",
+"rgb(255, 159, 64)","rgb(255, 205, 86)","rgb(75, 192, 192)","rgb(54, 162, 235)",
+"rgb(153, 102, 255)","rgb(201, 203, 207)"],"borderWidth":1}]},
+"options":{"scales":{"yAxes":[{"ticks":{"beginAtZero":true}}]}}});
+</script>
 </body>
 
 </html>
