@@ -75,25 +75,34 @@ img.home-logo{
     border-style: solid;
     background-color: white;
     font-family: "Open sans";
+    float:clear;
 }
-
+.filler-space{
+    background-color: rgb(238, 238, 238);
+    height:10vh;
+}
 .about-title, .skills-title, .projects-title, .contact-title{
     text-align: center;
-    font-size: 35px;
+    font-size: 40px;
     font-weight: 700;
 }
 
 .about-content, .skills-content, .projects-content, .contact-content{
     margin-left: 10px;
     margin-right: 10px;
-    font-size: 13px;
+    font-size: 18px;
+    font-weight: 400;
+    
+    background-color: white;
+    
 }
-
-.filler-space{
-    margin-top: 10px;
-    margin-bottom: 10px;
+.about-container, .skills-container, .skills2-container, .projects-container, .contact-container{
+    border-style:solid;
+    border-radius: 10px;
+    border-color: rgb(236, 236, 236);
+    padding-top:25px;
+    padding-bottom: 25px;
 }
-
 .skill2-content{
     display:flex;
     margin:auto;
@@ -114,6 +123,12 @@ img.home-logo{
     display:inline-block;
     width: 33%;
 }
+.quote-container{
+    text-align: center;
+    padding-top:20px;
+    padding-bottom: 20px;
+}
+
 /*
 * Responsive Media CSS
 */
